@@ -7,21 +7,35 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/1041257ebc.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <img class="logo" src="images/TLC-Portal.png" alt="logo" width="200">
-            <nav>
-                    <ul class="nav_links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Forums</a></li>
-                        <!-- <li><a href="#">Login</a></li> -->
-                    </ul>
-            </nav>
-            <nav>
-            <a class = "cta" href="#"><button>Login</button></a>
-        </nav>
+            <!-- <nav> -->
+            <i class="menu-toggle"></i>
+                <ul class="nav_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Forums</a></li>
+                    <li>
+                        <a href="#"> 
+                            <i class="fa fa-user"></i>
+                            My Profile
+                            <i class="fa fa-chevron-down" style="font-size: .8em";></i>
+                        </a>
+                        <ul>
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#"class ="logout">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            <!-- </nav> -->
+            <!-- <nav> -->
+            <!-- <a class = "cta" href="#"><button>Login</button></a> -->
+        <!-- </nav> -->
         </header>
     </body>
 </html>
