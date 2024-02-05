@@ -18,7 +18,7 @@ This project focuses on creating a user-friendly and aesthetically pleasing web 
 ## Authors
 
 
-Jack Wagner - jwagner@tlctechnologies.com
+Jack Wagner - jwagner@tlctechnologies.com 
 
 <!-- ## Version History
 
