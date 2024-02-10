@@ -36,11 +36,29 @@ h6 {
 }
 
 
+
+
 .btn:hover {
     transition: all 0.3s ease 0s;
     color:#0088a9 !important;
     background-color: white !important;
 }
+
+.btn-big {
+    padding:.3px .5px;
+    background-color: transparent!important;
+    line-height: 1.3rem;
+    width:100px;
+    height:50px;
+    font-size: large;
+}
+
+.btn-big:hover {
+    transition: all 0.3s ease 0s;
+    background-color: transparent!important;
+    color:#0088a9!important;
+}
+
 
 .text-input {
     margin-top: 10px;
@@ -232,6 +250,7 @@ header .menu-toggle {
 .post-slider .post-wrapper .post {
     position:relative;
     display: inline-block;
+    
     width:100px;
     height:350px;
     margin:0px 10px;
@@ -265,11 +284,31 @@ header .menu-toggle {
     
 }
 
+.content .main-content.single .post-title {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom:2px solid white;
+    
+}
+
+.content .main-content.single {
+    position: relative;
+    top:20px;
+
+    background-color: transparent;
+    color:#007a99;
+    /* border:2px solid white; */
+    border-radius: 0;;
+    /* color:white; */
+}
+
 .content .main-content {
     width: 70%;
     float:left;
     background-color:#0a5c70;
     /* border:3px solid white; */
+    text-align: left;
     border-radius:15px;
 }
 
@@ -289,6 +328,19 @@ header .menu-toggle {
     /* background-color:rgb(53, 53, 53); */
     position: relative;
     box-shadow: 1rem 1rem 1rem -.5rem rgba(156, 155, 155, 0.2);
+}
+
+.content .popular .post {
+    border-top:1px solid #757575;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.content .popular .post img {
+    float:left;
+    height: 40%;
+    width: 40%;
 }
 
 .content .main-content .post .read-more{
@@ -333,8 +385,12 @@ header .menu-toggle {
     /* margin-bottom: 20px; */
 }
 
+.content .sidebar .section.single{
+
+}
+
 .content .sidebar {
-    padding-left: px;
+    padding-left: 0px;
     width: 20%;
     float:left;
     margin-left:60px;
@@ -371,22 +427,96 @@ header .menu-toggle {
 /* #region FOOTER STYLING */
 .footer {
     color:rgb(255, 255, 255);
-    background-color: rgb(35, 35, 35);
+    background-color: #24252A;
     height:400px;
     position:relative;
 }
 
+.footer .footer-content h1, 
+.footer .footer-content h2 {
+    color:white;
+}
+
+.footer .footer-content .about .contact span {
+    display: block;
+    font-size: small;
+    margin-bottom: 8px;
+    
+}
+
+.footer .footer-content .about .socials a {
+    border: 1px solid #0088a9;
+    width: 45px;
+    height:41px;
+    padding-top: 7px;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border-width: 3px;;
+}
+
+.footer .footer-content .links ul a {
+    list-style:none;
+    display: block;
+    margin-bottom: 10px;
+    font-size:large;
+    margin-left:10px;
+    transition: all 0.4s ease 0s;
+    
+}
+
+.footer .footer-content .links ul a:hover {
+    color:#0088a9;
+    background-color: #0088a9;
+    transition: all 0.4s ease 0s;
+    padding-left: 20px;
+    
+}
+
 .footer .footer-content {
-    border: 1px solid red;
     height:350px;
     display: flex;
+    
 }
+
+.footer .footer-content .contact-form .contact-input {
+    background-color: #323232;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    width:70%;
+    margin-left: 100px;
+    
+    font-size: medium;
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+    background-color: #1a1a1a;
+    border:1px solid white!important;
+
+}
+
+.footer .footer-content .contact-form .contact-btn {
+    float:right;
+    font-size:  1.1em;
+    
+}
+
+.footer .footer-content .contact-form .contact-btn a:hover {
+    clear:both;
+    background-color:#0088a9;
+    border:1px solid white!important;
+}
+
 
 .footer .footer-content .footer-section {
     flex:1;
     padding: 25px;
-    border: 1px solid white;
-    background-color: #323232;
+    /* border: 3px solid white; */
+    border-top: 2px solid white;
+    background-color: #24252A;;
 
 }
 .footer .footer-bottom {
